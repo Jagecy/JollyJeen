@@ -10,6 +10,10 @@ body {
   color: #333; 
 }
 
+body::-webkit-scrollbar{
+  display: none;
+}
+
 header {
   background-color: #ffffff;
   padding: 10px;
@@ -56,6 +60,10 @@ header {
   text-align: center; 
   overflow: hidden; 
   white-space: nowrap;
+}
+
+.shorta{
+  width: 100px;
 }
 
 .button-blue {
@@ -239,3 +247,63 @@ footer {
   font-size: 24px; 
   color: white;
 }
+
+.cclist{
+  width:70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.game-info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align the items at the top */
+  margin: 20px;
+  margin-bottom: 0;
+}
+
+.game-icon {
+  max-width: 200px; /* Reduce the size of the icon */
+  margin-right: 20px;
+  margin-left: 10px; /* Slightly offsetting the icon to the left */
+}
+
+.game-icon img {
+  width: 100%; /* Ensure the image takes up the available width within the max-width constraint */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+}
+
+.game-details {
+  text-align: center;
+}
+
+.game-details h1 {
+  margin-bottom: 10px;
+}
+
+.description {
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 20px; /* Add some space between the icon and description */
+  font-size: 16pt;
+}
+
+.screenshots {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px; /* Add some space between the description and screenshots */
+}
+
+.screenshots img {
+  width: 320px; /* Set a fixed width */
+  height: 180px; /* Maintain a 16:9 aspect ratio (16/9 = 1.7778) */
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+
+
