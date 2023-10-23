@@ -286,8 +286,22 @@ footer {
   text-align: justify;
   max-width: 800px;
   margin: 0 auto;
-  margin-top: 20px; /* Add some space between the icon and description */
+  margin-top: 20px; 
   font-size: 16pt;
+}
+
+.licen {
+  text-align: right;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 20px; 
+  font-size: 14pt;
+  
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 
 .screenshots {
